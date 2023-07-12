@@ -2,7 +2,7 @@ import { defineTokens } from "@pandacss/dev";
 
 export const tokens = defineTokens({
   colors: {
-    heavy: { value: "orange" },
+    heavy: { value: "blue" },
     light: { value: "red" },
   },
 });

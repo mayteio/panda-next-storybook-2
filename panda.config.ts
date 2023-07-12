@@ -18,6 +18,12 @@ export default defineConfig({
   theme: {
     extend: {
       tokens,
+      // tokens: defineTokens({ // -- THIS WORKS!
+      //   colors: {
+      //     heavy: { value: "blue" },
+      //     light: { value: "red" },
+      //   },
+      // }),
       recipes: {
         heading: defineRecipe({
           name: "heading",
